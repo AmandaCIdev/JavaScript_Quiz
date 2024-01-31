@@ -60,8 +60,7 @@ const questions = [{
         ]
     },
     {
-        question: "What does the acronym "
-        DOM " stand for in JavaScript?",
+        question: "What does the acronym 'DOM'stand for in JavaScript?",
         answers: [{
                 text: "Document Object Model",
                 correct: true
@@ -87,8 +86,7 @@ const questions = [{
                 correct: false
             },
             {
-                text: ""
-                33 "",
+                text: "'33'",
                 correct: true
             },
             {
@@ -143,8 +141,7 @@ const questions = [{
         ]
     },
     {
-        question: "What does the term "
-        API " stand for in web development?",
+        question: "What does the term 'API' stand for in web development?",
         answers: [{
                 text: "Application Programming Interface",
                 correct: true
@@ -223,8 +220,7 @@ function startQuiz() {
 function showQuestion() {
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.
-    question;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
