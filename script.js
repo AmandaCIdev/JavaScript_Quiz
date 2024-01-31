@@ -33,7 +33,7 @@ const questions = [{
                 correct: true
             },
             {
-                text: "<!-- comment -->",
+                text: "<!-- comment-->",
                 correct: false
             },
         ]
