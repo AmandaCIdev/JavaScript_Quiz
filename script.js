@@ -1,21 +1,22 @@
 const questions = [{
-        question: "How do you declare a variable in JavaScript?",
+        question: "How does JavaScript handle code with even a single tiny typo mistake?",
         answers: [{
-                text: "var",
+                text: "It ignores the typo and continues execution",
                 correct: false
             },
             {
-                text: "variable",
+                text: "It displays a warning but executes the code",
                 correct: false
             },
             {
-                text: "v",
+                text: "It prompts the user to fix the typo",
                 correct: false
             },
             {
-                text: "let ",
+                text: "It rejects and does not work if there is even the most minuscule syntax error mistake",
                 correct: true
             },
+
         ]
     },
     {
@@ -33,7 +34,7 @@ const questions = [{
                 correct: true
             },
             {
-                text: "<!-- comment-->",
+                text: "*** comment ***",
                 correct: false
             },
         ]
@@ -100,21 +101,21 @@ const questions = [{
         ]
     },
     {
-        question: "Which of the following is not a valid way to declare a function in JavaScript?",
+        question: "What is the purpose of the ‘typeof’ operator in JavaScript?",
         answers: [{
-                text: "function myFunction() { } ",
+                text: "To check if a variable is defined",
+                correct: false
+            },
+            {
+                text: "To determine the type of a value or variable",
                 correct: true
             },
             {
-                text: "let myFunction = function() { }",
+                text: "To convert a string to uppercase",
                 correct: false
             },
             {
-                text: "const myFunction = () => { }",
-                correct: false
-            },
-            {
-                text: "var myFunction = () => { }",
+                text: "To create a new variable",
                 correct: false
             },
 
@@ -139,8 +140,7 @@ const questions = [{
                 correct: false
             },
         ]
-    },
-    {
+    }, {
         question: "What does the term 'API' stand for in web development?",
         answers: [{
                 text: "Application Programming Interface",
@@ -159,8 +159,7 @@ const questions = [{
                 correct: false
             },
         ]
-    },
-    {
+    }, {
         question: "What is the purpose of the JSON.parse method in JavaScript?",
         answers: [{
                 text: "To format text",
@@ -179,8 +178,7 @@ const questions = [{
                 correct: false
             },
         ]
-    },
-    {
+    }, {
         question: "In JavaScript fetch, when using the HTTP method GET, where is the data typically included?",
         answers: [{
                 text: "In the request body",
